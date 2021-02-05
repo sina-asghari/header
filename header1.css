@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+
+.navlinks li{
+    display: inline-block;
+    list-style: none;
+    background: none;
+}
+
+.navlinks li a{
+    text-decoration: none;
+    transition: all 0.4s ease 0s ;
+    color: aliceblue;
+    background: none;
+    padding-right: 20px;
+}
+
+.navlinks li a:hover {
+   color: #0088a9;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #24252a;
+    align-items: center;
+    padding: 30px 5%;
+}
+
+.logo{
+    color: aliceblue;
+    cursor: pointer;
+    text-decoration: none;
+    background: none;
+
+}
