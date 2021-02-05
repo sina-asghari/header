@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="header4.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <a href="" class="logo">sina asghari</a>
+        <ul>
+            <li><a href="">home</a></li>
+            <li><a href="">about</a></li>
+            <li><a href="">servises</a></li>
+            <li><a href="">contact</a></li>
+        </ul>
+    </nav>
+    <section class="banner"></section>
+
+    <script type="text/javascript">
+        window.addEventListener('scroll',function(){
+            var header = document.querySelector('nav');
+            header.classList.toggle('sticky', window.scrollY > 0)
+        })
+    </script>
+    
+</body>
+</html>
