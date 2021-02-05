@@ -1,2 +1,2 @@
 # header
-5 diffrent projects 
+5 different projects 
